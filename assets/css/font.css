@@ -1,0 +1,20 @@
+@font-face{
+	src: url(fonts/migu-1c-regular.ttf);
+	font-family: "migu";
+}
+@font-face{
+	src: url(fonts/foundation-icons.ttf);
+	font-family: "foundation";
+}
+@font-face {
+    font-family: 'icomoon';
+    src: url(fonts/icomoon.ttf);
+}
+@font-face{
+	src: url(fonts/smartfont.otf);
+	font-family: 'smartfont';
+}
+@font-face{
+	src: url(fonts/BadScript-Regular.ttf);
+	font-family: "Bad Script";
+}

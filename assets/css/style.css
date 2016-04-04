@@ -1,0 +1,736 @@
+
+
+html, body{
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#index{
+
+}
+.sec-title{
+	font-family: 'Bad Script', cursive;
+	text-align: center;
+	position: relative;
+	top: 2rem;
+	font-size: 3.1rem;
+}
+ /*--navigation--*/
+#nav{
+ 	position: fixed;
+ 	width: 100%;
+ 	padding: 2em 0 0;
+ 	z-index: 100;
+ 	overflow-x: hidden;
+ 	margin: 0 auto;
+ 	overflow: hidden;
+}
+#nav .inner{
+	width: 54%;
+	margin: 0 auto;
+	background-color: #ddd;
+	position: relative;
+}
+.nav-logo{
+	font-size: 3.4em;
+	float: left;
+	color: #fff;
+	font-family: 'Bad Script', cursive;
+}
+.nav-main{
+	float: right;
+	margin: 2.4em 0 0;
+}
+.nav-main ul li{
+	float: left;
+}
+.nav-main ul li a{
+	color: #fff;
+	padding: 0 21px;	
+	font-size: 1rem;
+}
+#nav,#nav .inner,#nav .nav-logo,.nav-main,.nav-main ul,.nav-main ul li,.nav-main ul li a,.os-images figure,.role-item,.os-images figure *{
+	transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+#nav.fixed{
+	padding: 0.5rem 0;
+	background-color: rgba(167,38,8,0.9);
+}
+#nav.fixed .nav-logo{
+	font-size: 2.1em;
+	color: #fff;
+}
+#nav.fixed .nav-main{
+	margin: .1rem;
+	margin-top: 1.1rem;
+}
+#nav.fixed .nav-main ul li a{
+	color: #fff;
+}
+/*--index.html--*/
+.video{
+	width: 100%;
+	height: 100%;
+}
+.video h1{
+	font-size: 4rem;
+	text-align: center;
+	position: relative;
+	top: -57%;
+	color: #fff;
+	font-family: 'Bad Script', cursive;
+}
+.scrollDown{
+	color: #fff;
+	font-size: 2rem;
+	position: relative;
+	top: -57%;
+	font-family: 'Bad Script', cursive;
+	text-align: center;
+}
+.video:before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background: url(img/topBG.png);
+	background-size: cover;
+	-webkit-filter: brightness(50%);
+	-moz-filter: brightness(50%);
+	-ms-filter: brightness(50%);
+	-opera-filter: brightness(50%);
+	background-attachment: fixed;
+	margin: 0 auto;
+}
+video{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+	right: 0;
+	top: 0;
+}
+.video video img{
+	width: 100%;
+	height: 100%;
+}
+.member-sec{
+	background: rbga(100,100,100,0.5);
+	position: relative;
+	width: 100%;
+	border-bottom: 3rem #fff solid;
+}
+.member-wrap{
+	position: relative;
+	top: 3rem;
+}
+.member{ 
+	color: #000;
+	position: relative;
+}
+.member:nth-child(odd){
+	margin-left: -16em;
+}
+.member:nth-child(odd) .text{
+	text-align: right;
+}
+.member:nth-child(even){
+	margin-left: 16em;
+}
+.member-name{
+	height: 3rem;
+	overflow: hidden;
+}
+.member-enter{
+	position: relative;
+	top: -3rem;
+}
+.member-face{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0 auto;
+    text-wrap: none;
+}
+#otsuka .member-face{
+	background-image: url(img/person/otsuka.jpg);
+}
+#tanimura .member-face{
+	background-image: url(img/person/tanimura.jpg);
+}
+#murata .member-face{
+	background-image: url(img/person/murata.jpg);
+}
+#inoue .member-face{
+	background-image: url(img/person/inoue.jpg);
+}
+#akizuki .member-face{
+	background-image: url(img/person/akizuki.jpg);
+}
+.member-name{
+	font-family: 'Bad Script', cursive;
+    font-size: 2rem;
+    margin-top: 1rem;
+    position: absolute;
+    top: 2rem;
+    margin-left: 18rem;
+}
+.member-text{
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    position: absolute;
+    top: 5rem;
+    margin-left: 18rem;
+    width: 21rem;
+    font-family: 'smartfont';
+}
+.member:nth-child(odd) .member-name{
+	margin-left: -25rem;
+}
+.member:nth-child(odd) .member-text{
+	margin-left: -25rem;
+}
+/*whatos*/
+#hello{
+	width: 100%;
+	height: 100%;
+}
+#hello .text-wrap{
+	text-align: center;
+	color: #fff;
+	position: relative;
+	top: -54%;
+}
+#hello .text-wrap h1{
+	font-size: 3rem;
+	font-family: 'Bad Script', cursive;
+}
+#hello:before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url(img/osBg.jpg);
+	background-size: cover;
+	-webkit-filter: brightness(50%);
+	-ms-filter: brightness(50%);
+	-moz-filter: brightness(50%);
+	-opera-filter: brightness(50%);
+	z-index: -1;
+}
+#os-def{
+	width: 100%;
+	padding: 15%;
+	background: #222;
+	position: relative;
+	color: #fff;
+}
+#os-def h1{
+	font-size: 2rem;
+	left: 1rem;
+	margin: 0 0 1rem 0;
+	font-family: 'Bad Script', cursive;
+}
+#os-def p{
+	left: 1rem;
+	font-size: 1.2rem;
+	font-family: 'smartfont';
+}
+#os-role{
+	width: 100%;
+	padding: 20% 0;
+	position: relative;
+	background: #333;
+}
+#os-role h2{
+	text-align: center;
+	font-size: 3rem;
+	font-family: 'Bad Script', cursive;
+	position: relative;
+	top: -13rem;
+	color: #fff;
+}
+.role-wrap{
+	width: 288px;
+	height: 288px;
+	margin: 0 auto;
+	position: relative;
+}
+.role-item{
+	width: 189px;
+    height: 189px;
+    border-radius: 50%;
+    overflow: hidden;
+    position:absolute;
+    left: 72px;
+    top: 72px;
+    box-shadow: 0 1px 1px 1px rgba(200,200,200,0.2);
+    z-index: 10;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #fff;
+    background-position-y: top;
+}
+.role-item:hover{
+	width: 233px;
+	height: 233px;
+	margin-left: -23px;
+	margin-top:-23px;
+	font-size: 5rem;
+}
+.role-item figure{
+	text-align: center;
+	background-size: cover;
+	width: 289px;
+	height: 289px;
+}
+.role-item figure span{
+	position: relative;
+	top: 20%;
+	color: #fff;
+}
+#role-1{
+	background-image: url(img/role/task.png);
+}
+#role-2{
+	background-image: url(img/role/memory.png);
+}
+#role-3{
+	background-image: url(img/role/folder.png);
+}
+#role-4{
+	background-image: url(img/role/peripherals.png);
+}
+#role-5{
+	background-image: url(img/role/api.png);
+	background-position-x: 75%;
+}
+@keyframes rotatearrow{
+	from{
+		transform: rotate(75deg);
+	}
+
+	to{
+		transform: rotate(435deg);
+	}
+}
+.rotate-arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: #fff #fff #fff rgba(0,0,0,0);
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    transform: rotate(75deg);
+    animation-duration: 2s;
+    animation-name: rotatearrow;
+    animation-iteration-count: infinite;
+}
+.rotate-arrow:after{
+    content: "";
+    diplay: block;
+    widht: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-top-color: #fff;
+    position: absolute;
+    transform: rotate(150deg);
+    top: 12px;
+    left: -15px;
+}
+#particles{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0%;
+}
+.arrow{
+	width: 55px;
+	height: 55px;
+	background: #A72608;
+	-ms-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: relative;
+	top: 116px;
+	overflow: hidden;
+	z-index: 50;
+}
+.arrow#prev{
+	float: left;
+	margin: 0 0 0 5rem;
+}
+.arrow#next{
+	float: right;
+	margin: 0 5rem 0;
+	-ms-transform: rotate(225deg);
+	-moz-transform: rotate(225deg);
+	-webkit-transform: rotate(225deg);
+	-o-transform: rotate(225deg);
+	transform: rotate(225deg);
+}
+.arrow:hover{
+	background: #7F1C06;
+}
+.arrow:active{
+	box-shadow: 2px 0 2px 2px rgba(50,50,50,0.5) inset,-2px 0 2px 2px rgba(50,50,50,0.5) inset,0 2px 2px 2px rgba(50,50,50,0.5) inset, 0 -2px 2px 2px rgba(50,50,50,0.5) inset;
+}
+.arrow:before{
+	content: "";
+	display: block;
+	width: 21px;
+	height: 21px;
+	background: #fff;
+	position: absolute;
+	top: 13px;
+	left: 21px;
+}
+.arrow:after{
+	content: "";
+	display: block;
+	width: 21px;
+	height: 21px;
+	background: inherit;
+	position: absolute;
+	top: 12px;
+	left: 22px;
+}
+#os-various{
+	padding: 3rem 0;
+	font-family: 'Bad Script', cursive;
+	position: relative;
+	background: #12171e;
+}
+#os-various h2{
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Bad Script', cursive;
+	color: #fff;
+}
+.os-row{
+	text-align: center;
+}
+.os-images{
+	width: 233px;
+	height: 233px;
+	display: inline-block;
+	margin: 2rem 3rem;
+	position: relative;
+	border-radius: 50%;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.os-images figure{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-size: cover;
+	border-radius: 50%;
+}
+.os-images figure:hover{
+	width: 120%;
+	height: 120%;
+	margin-left: -10%;
+	margin-top: -10%;
+}
+.os-bg{
+	width: 233px;
+	height: 233px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+	text-aling: center;
+	color: #000;
+	background: #DDE2C6;
+}
+figure#macos{
+	background-image: url(img/os/osx.jpg);
+}
+figure#windows{
+	background-image: url(img/os/windows.jpg);
+}
+figure#linux{
+	background-image: url(img/os/ubuntu.jpg);
+}
+figure#ios{
+	background-image: url(img/os/ios.jpg);
+}
+figure#android{
+	background-image: url(img/os/android.jpg);
+}
+figure#chromeos{
+	background-image: url(img/os/chrome.jpg);
+}
+.os-bg figure .bg-cover *{
+	font-family: 'Bad Script', cursive;
+	text-align: center;
+	color:  #fff;
+	font-size: 1.3rem;
+	position: relative;
+	top: 3rem;
+	opacity: 0;
+}
+.os-name{
+	top: 1.3em;
+	color: #000;
+	font-size: 2rem;
+}
+.maker{
+	top: -1.3em;
+}
+#os-various hr{
+	width: 55%;
+	height: 1px;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(200,200,200,1) 50%,rgba(255,255,255,0) 100%);
+	margin: 2rem auto;
+	text-align: center;
+	border-radius: 50%;
+}
+#os-various hr.laptop:after{
+	font-family: "icomoon";
+	content: "\e902";
+	display: inline-block;
+	position: relative;
+	top: -1rem;
+	padding: 0 10px;
+	background: #12171e;
+	color: #fff;
+	font-size: 1.5rem;
+}
+#os-various hr.mobile:after{
+	font-family: "icomoon";
+	content: "\e903";
+	display: inline-block;
+	position: relative;
+	top: -1rem;
+	padding: 0 10px;
+	background: #12171e;
+	color: #fff;
+	font-size: 1.5rem;
+}
+/*link.html*/
+
+.black-out{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 100000;
+}
+.modal-window{
+    width: 640px;
+    height: 440px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%); /* Safari用 */
+    transform: translate(-50%, -50%);
+    box-shadow: 0 3px 3px 3px rgba(100,100,100,0.5);
+    overflow: hidden;
+    font-family: 'smartfont';
+}
+.content-wrap{
+    width: 440px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+.content-image{
+    width: 380px;
+    height: 380px;
+    display: block;
+    margin: 0 30px 21px;
+    position: absolute;
+    top: 34px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    z-index: -1;
+}
+.content-title{
+    font-size: 2.1rem;
+    position: relative;
+    top: 150px;
+    color: #4C5454;
+}
+.content-text{
+    position: relative;
+    top: 1.3rem;
+    font-size: 1.1rem;
+    top: 180px;
+    color: #4C5454;
+}
+#cancel-button{
+    transition: all .1s ease;
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -o-transition: all .1s ease;
+}
+.cancel-wrap{
+    width: 34px;
+    height: 34px;
+    float: right;
+    position: relative;
+    top: 21px;
+}
+#cancel-button{
+    width: 3px;
+    height: 21px;
+    background:#000;
+    transform: rotate(45deg);
+}
+#cancel-button::after{
+    content:"";
+    display: block;
+    width: 3px;
+    height: inherit;
+    background:inherit;
+    transform: rotate(90deg);
+}
+.cancel-wrap:active #cancel-button{
+    background: #666;
+    height: 17px;
+    margin-top: 2px;
+}
+#link-title{
+	background-color: #000;
+	width: 100%;
+	height: 50%;
+	overflow: hidden;
+}
+#link-title h1{
+	text-align: center;
+	position: relative;
+	top: 46%;
+	color: #fff;
+	font-size: 3rem;
+	font-family: 'Bad Script', cursive;
+	-webkit-filter: brightness(100%);
+	z-index: 5;
+}
+#link-title:after{
+	display: block;
+	content: "";
+	width: 100%;
+	height: 200%;
+	background-size: cover;
+	background: url(img/linkBG.png);
+	-webkit-filter: brightness(50%);
+	-moz-filter: brightness(50%);
+	-ms-filter: brightness(50%);
+	-opera-filter: brightness(50%);
+	z-index: -1;
+	margin-top: -10%;
+}
+#link-title h1{
+	font-family: 'Bad Script';
+}
+#link section article{
+	margin-top: 3rem;
+}
+section article h3 a{
+	color: #9BC4CB;
+	text-decoration: underline;
+	font-family: 'smartfont';
+}
+section article h3 a:hover{
+	color: #CFEBDF;
+}
+/*my os*/
+#myos-top{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#myos-top{
+	width: 100%;
+	height: 100%;
+}
+#myos-top h1{
+	z-index: 10;
+}
+#myos-top:after{
+	background: url(img/myos.jpg);
+	display: block;
+	content: "";
+	width: 100%;
+	height: 200%;
+	-webkit-filter: brightness(50%);
+	-moz-filter: brightness(50%);
+	-ms-filter: brightness(50%);
+	-opera-filter: brightness(50%);
+	margin-top: -10%;
+	z-index: -10;
+}
+#comming{
+	font-size: 4rem;
+	text-align: center;
+	color: #fff;
+}
+.process{
+    width: 100%;
+    height: 34rem;
+    position: relative;
+}
+.process-img{
+    width: 34rem;
+    height: 21rem;
+    position: relative;
+    top: 6.5rem;
+    left: 9rem;
+    background-size: cover;
+}
+.process-text{
+	position: relative;
+	width: 55rem;
+	top: -13rem;
+	float: right;
+	left: -5rem;
+}
+.process-text p{
+	font-weight: bold;
+	text-align: right;
+	font-size: 1.8rem;
+	font-family: "smartfont";
+}
+.process:nth-child(even) .process-img{
+	float: right;
+	margin-right: 18rem;
+}
+.process:nth-child(even) .process-text{
+	text-align: left;
+	float: left;
+	left: 5rem;
+}
+.process:nth-child(1) .process-img{
+	background-image: url("img/linkBG.png");
+}
+footer{
+	width: 100%;
+	line-height: 5rem;
+	text-align: center;
+	font-size: 2rem;
+	color: #fff;
+	background: #191919;
+	font-family: "Bad Script";
+}
+#whatos footer{
+	color: #000;
+	background-color: #fff;
+}
